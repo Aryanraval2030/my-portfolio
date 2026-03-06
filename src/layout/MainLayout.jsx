@@ -4,7 +4,6 @@ import Header from "../component/Header";
 function Mainlayout({ children }) {
   return (
     <>
-      <Header />
       {children}
       <Footer />
     </>

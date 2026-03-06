@@ -7,13 +7,15 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Mainlayout from "./layout/MainLayout";
 import Header from "./component/Header";
+import CursorDot from "./component/CursorDot";
 
 function App() {
   return (
     
     <>
-      <div className="bg-[#0d1117] min-h-screen text-white">
+      <div className="tracking-[1px] bg-[#0d1117] min-h-screen text-white">
         <BrowserRouter>
+        <CursorDot/>
         <Mainlayout>
           <Header/>
           <Routes>
