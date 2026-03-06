@@ -30,3 +30,47 @@ src
 ├── App.jsx
 ├── main.jsx
 └── index.css
+
+-------------------------------------------------------------------------
+
+
+
+FRONTEND DEVELOPER PORTFOLIO COLOR PALETTE
+
+MAIN BACKGROUND
+#0d1117
+
+SECONDARY BACKGROUND (Cards / Navbar)
+#161b22
+
+PRIMARY TEXT
+#e6edf3
+
+SECONDARY TEXT
+#8b949e
+
+ACCENT COLOR (Buttons / Links / Highlights)
+#58a6ff
+
+GRADIENT ACCENT
+#58a6ff → #a371f7
+
+OPTIONAL NAVY BACKGROUND
+#0b1f3a
+
+CARD BACKGROUND (NAVY THEME)
+#112240
+
+HIGHLIGHT COLOR (Optional)
+#64ffda
+
+TAILWIND GRADIENT
+bg-gradient-to-r from-[#58a6ff] to-[#a371f7]
+
+PORTFOLIO STRUCTURE IDEA
+
+Hero Section → #0d1117
+Navbar / Cards → #161b22
+Text → #e6edf3
+Buttons → #58a6ff
+Hover / Gradient → #58a6ff → #a371f7
