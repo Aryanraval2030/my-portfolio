@@ -46,6 +46,7 @@ function Home() {
           fill="currentColor"
         />
       </div>
+      
       <About />
       <Skills />
       <Projects />
@@ -55,3 +56,8 @@ function Home() {
 }
 
 export default Home;
+
+
+
+
+

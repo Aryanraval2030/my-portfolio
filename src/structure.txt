@@ -72,3 +72,9 @@ Navbar / Cards → #161b22
 Text → #e6edf3
 Buttons → #58a6ff
 Hover / Gradient → #58a6ff → #a371f7
+
+
+
+//////////////////////////////////////////
+
+ 
