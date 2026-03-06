@@ -1,8 +1,6 @@
-import React from 'react'
-
 function About() {
   return (
-    <div>
+    <div className='border-2 h-[100vh]'>
       <h1>about</h1>
     </div>
   )

@@ -17,8 +17,6 @@ src
 │   ├── Projects.jsx
 │   └── Contact.jsx
 │
-├── layout
-│   └── MainLayout.jsx
 │
 ├── data
 │   └── projectsData.js
