@@ -1,0 +1,32 @@
+src
+│
+├── assets
+│   ├── images
+│   └── icons
+│
+├── components
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── Navbar.jsx
+│   └── Card.jsx
+│
+├── pages
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Skills.jsx
+│   ├── Projects.jsx
+│   └── Contact.jsx
+│
+├── layout
+│   └── MainLayout.jsx
+│
+├── data
+│   └── projectsData.js
+│
+├── hooks
+│
+├── utils
+│
+├── App.jsx
+├── main.jsx
+└── index.css
