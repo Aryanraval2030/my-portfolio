@@ -6,12 +6,12 @@ function About() {
         about me
       </h1>
 
-      <div className="flex flex-col md:flex-row gap-10 items-center">
+      <div className="md:text-center flex flex-col md:flex-row gap-10 items-center">
 
         {/* Text Section */}
         <div className="md:w-[70%]">
 
-          <p className="text-lg sm:text-xl md:text-2xl text-[#a371f7] mb-4 tracking-wider leading-8 md:leading-10">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-[#a371f7] mb-4 tracking-wider leading-7 md:leading-9 text-center md:text-left">
 
             Hi! I'm Aryan, a passionate Frontend Developer from Ahmedabad. I
             love building clean and{" "}

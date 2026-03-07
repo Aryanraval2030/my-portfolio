@@ -1,11 +1,13 @@
 import Navbar from "./Navbar";
-
 function Header() {
   return (
-    <header className="bg-[#161b22] h-[14vh] bg-[#161b22]/30 backdrop-blur-md flex justify-center gap-[40rem] z-10 text-xl items-center text-[#58a6ff] fixed top-0 w-[100%]">
+    <header className="bg-[#161b22]/30 backdrop-blur-md flex justify-between px-6 items-center h-[14vh] fixed top-0 w-full z-10 text-xl text-[#58a6ff]">
+      {/* Logo */}
       <div>
         <h1 className="text-[26px]">AR</h1>
       </div>
+
+      {/* Navbar */}
       <Navbar />
     </header>
   );
