@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Header from "./component/Header";
 import CursorDot from "./component/CursorDot";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/projects" element={<Projects />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
           </Routes>
+          <Footer/>
         </BrowserRouter>
       </div>
     </>

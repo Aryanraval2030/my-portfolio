@@ -40,7 +40,7 @@ function Contact() {
   };
 
   return (
-    <section className="min-h-screen bg-[#0d1117] text-white flex items-center justify-center px-6">
+    <div className="min-h-screen pt-[15vh] bg-[#0d1117] text-white flex items-center justify-center px-6">
       <ToastContainer />
 
       <div className="max-w-4xl w-full">
@@ -56,29 +56,39 @@ function Contact() {
           onSubmit={handle}
           className="bg-[#161b22] p-8 rounded-xl border border-gray-700 space-y-6"
         >
-          <input
-            type="text"
-            name="user_name"
-            placeholder="Your Name"
-            required
-            className="w-full p-3 rounded-lg bg-[#0d1117] border border-gray-700"
-          />
+          <div>
+            <p className="pb-2">user name</p>
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Your Name"
+              required
+              className="w-full p-3 rounded-lg bg-[#0d1117] border border-gray-700"
+            />
+          </div>
 
-          <input
-            type="email"
-            name="user_email"
-            placeholder="Your Email"
-            required
-            className="w-full p-3 rounded-lg bg-[#0d1117] border border-gray-700"
-          />
+          <div>
+            <p className="pb-2">email</p>
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Your Email"
+              required
+              className="w-full p-3 rounded-lg bg-[#0d1117] border border-gray-700"
+            />
+          </div>
 
-          <textarea
-            name="message"
-            rows="5"
-            placeholder="Your Message"
-            required
-            className="w-full p-3 rounded-lg bg-[#0d1117] border border-gray-700"
-          ></textarea>
+          <div>
+            <p className="pb-2">here msg</p>
+
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+              className="w-full p-3 rounded-lg bg-[#0d1117] border border-gray-700"
+            ></textarea>
+          </div>
 
           <button
             type="submit"
@@ -88,7 +98,7 @@ function Contact() {
           </button>
         </form>
       </div>
-    </section>
+    </div>
   );
 }
 

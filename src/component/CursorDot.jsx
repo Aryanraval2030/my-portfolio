@@ -32,7 +32,7 @@ function CursorDot() {
   return (
     <div
       ref={dotRef}
-      className="fixed z-[1] w-2 h-2 bg-[#58a6ff] rounded-full pointer-events-none shadow-lg shadow-[#58a6ff]/50"
+      className="fixed z-[11] w-2 h-2 bg-[#58a6ff] rounded-full pointer-events-none shadow-lg shadow-[#58a6ff]/50"
     />
   );
 }
