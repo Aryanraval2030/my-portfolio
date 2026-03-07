@@ -8,25 +8,9 @@ import Contact from "./pages/Contact";
 import Header from "./component/Header";
 import CursorDot from "./component/CursorDot";
 import Footer from "./component/Footer";
-import RippleGrid from "./RippleGrid";
 function App() {
   return (
     <>
-      <div
-        style={{ position: "relative", height: "500px", overflow: "hidden" }}
-      >
-        <RippleGrid
-          enableRainbow={false}
-          gridColor="#ffffff"
-          rippleIntensity={0.05}
-          gridSize={10}
-          gridThickness={15}
-          mouseInteraction={true}
-          mouseInteractionRadius={1.2}
-          opacity={0.8}
-        />
-      </div>
-
       <div className="tracking-[1px] bg-[#0d1117] min-h-screen text-white">
         <BrowserRouter>
           <CursorDot />
