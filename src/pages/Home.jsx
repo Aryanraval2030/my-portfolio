@@ -13,10 +13,10 @@ function Home() {
   return (
     <>
      
-      <div className="relative min-h-[100vh] overflow-hidden flex flex-col justify-center items-center px-5 md:px-7 pt-[20vh] text-center">
+      <div className="relative min-h-[100vh] overflow-hidden flex flex-col justify-center items-center px-5 md:px-7 md:pt-[20vh] pt-[13vh] text-center">
         {/* Background */}
-        <div className="absolute  h-[100vh] inset-0 z-10">
-          <Particles   moveParticlesOnHover={true}  />
+        <div className="absolute  h-[100vh] inset-0 ">
+          <Particles    particleColors={["#8892b0"]}   particleHoverFactor={2} moveParticlesOnHover={true}  />
         </div>
 
         {/* Hero Content */}
