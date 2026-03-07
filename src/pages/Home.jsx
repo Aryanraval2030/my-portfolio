@@ -13,7 +13,7 @@ function Home() {
   return (
     <>
      
-      <div className="relative min-h-[100vh] overflow-hidden flex flex-col justify-center items-center px-5 md:px-7 md:pt-[20vh] pt-[10vh] text-center">
+      <div className="relative min-h-[100vh] overflow-hidden flex flex-col justify-center items-center px-5 md:px-7 md:pt-[20vh] pt-[5vh] text-center">
         {/* Background */}
         <div className="absolute  h-[100vh] inset-0 ">
           <Particles    particleColors={["#8892b0"]}   particleHoverFactor={2} moveParticlesOnHover={true}  />
