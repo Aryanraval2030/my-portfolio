@@ -6,11 +6,12 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
+import { IoIosMailUnread } from "react-icons/io";
 
 function Home() {
   return (
     <>
-      <div className="min-h-[70vh] flex flex-col justify-center items-center px-5 md:px-7 pt-[12vh] text-center">
+      <div className="min-h-[70vh] flex flex-col justify-center items-center px-5 md:px-7 pt-[20vh] text-center">
         <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl leading-[3rem] md:leading-[5rem] text-[#ccd6f6]">
           hello, i'm Aryan raval
         </h1>
@@ -37,11 +38,8 @@ function Home() {
 
         <div className="text-center">
           <p className="pt-5 text-[#58a6ff] text-base sm:text-lg md:text-xl">
-            I build interactive and responsive web applications
-          </p>
-
-          <p className="text-[#58a6ff] text-base sm:text-lg md:text-xl">
-            I design and develop modern websites
+         I build modern and responsive web applications <br />
+using HTML, CSS, JavaScript and React.
           </p>
           <div className="flex  justify-center gap-8 mt-3">
             <span className="inline-block p-2 rounded-full text-3xl border-2 border-[#112240]">
@@ -49,6 +47,9 @@ function Home() {
             </span>
             <span className="inline-block p-2 rounded-full text-3xl border-2 border-[#112240]">
               <FaLinkedinIn />
+            </span>
+            <span className="inline-block p-2 rounded-full text-3xl border-2 border-[#112240]">
+              <IoIosMailUnread />
             </span>
           </div>
         </div>
