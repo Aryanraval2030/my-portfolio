@@ -10,11 +10,11 @@ function Navbar() {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-[2rem] items-center">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/skills">Skills</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/" className="hover:text-[#1072fc]">Home</Link>
+        <Link to="/about" className="hover:text-[#1072fc]">About</Link>
+        <Link to="/skills" className="hover:text-[#1072fc]">Skills</Link>
+        <Link to="/projects" className="hover:text-[#1072fc]">Projects</Link>
+        <Link to="/contact" className="hover:text-[#1072fc]">Contact</Link>
       </ul>
 
       {/* Mobile Button */}
@@ -28,7 +28,7 @@ function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-[14vh] left-0 w-full bg-[#161b22] flex flex-col items-center gap-6 py-8 md:hidden">
+        <div className="absolute top-[10vh] left-0 w-full bg-[#161b22] flex flex-col items-center gap-6 py-8 md:hidden">
 
           <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
