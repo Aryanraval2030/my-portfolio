@@ -47,7 +47,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="mt-[10vh] md:mt-[18vh] flex justify-center w-full">
+      <div className="mt-[5vh] md:mt-[18vh] flex justify-center w-full">
         <ArrowBigDown
           className="h-[5rem] w-[5rem] md:h-[9rem] md:w-[9rem] text-[#a371f7] animate-bounce"
           fill="currentColor"
