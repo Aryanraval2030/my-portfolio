@@ -1,4 +1,4 @@
-import Card from "../components/Card";
+import Card from "../component/Card";
 
 function Projects() {
   return (
