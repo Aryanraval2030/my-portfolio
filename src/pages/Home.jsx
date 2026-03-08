@@ -22,7 +22,7 @@ function Home() {
           <FaLinkedinIn className="h-full w-full" />
         </div>
 
-        <div className="border-2 h-[50px] w-[50px]  md:h-[60px]  md:w-[60px] animate-bounce absolute right-[20vh] top-[16vh] md:right-[40rem] md:top-[10rem] p-3 rounded-full">
+        <div className="border-2 h-[50px] w-[50px]  md:h-[60px]  md:w-[60px] animate-bounce absolute right-[22vh] top-[16vh] md:right-[40rem] md:top-[10rem] p-3 rounded-full">
           <IoIosMailUnread className="h-full w-full" />
         </div>
 
