@@ -12,13 +12,27 @@ import Particles from "../Particles";
 function Home() {
   return (
     <>
-     
       <div className="relative min-h-[85vh] overflow-hidden flex flex-col justify-center items-center px-5 md:px-7 md:pt-[20vh] pt-[15vh] text-center">
         {/* Background */}
-        <div className="absolute  h-[100vh] inset-0 ">
-          <Particles    particleColors={["#8892b0"]}   particleHoverFactor={2} moveParticlesOnHover={true}  />
+        <div className="border-2 h-[50px] e-[50px] md:h-[60px]  md:w-[60px] animate-bounce absolute left-[5vh] top-[16vh] md:left-[20rem] md:top-[10rem] p-3 rounded-full">
+          <FiGithub className="h-full w-full" />
         </div>
 
+        <div className="border-2 h-[50px] e-[50px]  md:h-[60px]  md:w-[60px] animate-bounce absolute right-[5vh] top-[16vh] md:right-[20rem] md:top-[10rem] p-3 rounded-full">
+          <FaLinkedinIn className="h-full w-full" />
+        </div>
+
+        <div className="border-2 h-[50px] e-[50px]  md:h-[60px]  md:w-[60px] animate-bounce absolute right-[17vh] top-[16vh] md:right-[40rem] md:top-[10rem] p-3 rounded-full">
+          <IoIosMailUnread className="h-full w-full" />
+        </div>
+
+        <div className="absolute  h-[100vh] inset-0 ">
+          <Particles
+            particleColors={["#8892b0"]}
+            particleHoverFactor={2}
+            moveParticlesOnHover={true}
+          />
+        </div>
         {/* Hero Content */}
         <div className="relative ">
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl leading-[3rem] md:leading-[5rem] text-[#ccd6f6]">
