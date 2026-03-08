@@ -14,11 +14,11 @@ function Home() {
     <>
       <div className="relative min-h-[85vh] overflow-hidden flex flex-col justify-center items-center px-5 md:px-7 md:pt-[20vh] pt-[15vh] text-center">
         {/* Background */}
-        <div className="border-2 h-[50px] e-[50px] md:h-[60px]  md:w-[60px] animate-bounce absolute left-[5vh] top-[16vh] md:left-[20rem] md:top-[13rem] p-3 rounded-full">
+        <div className="border-2 h-[50px] e-[50px] md:h-[60px]  md:w-[60px] animate-bounce absolute left-[5vh] top-[19vh] md:left-[20rem] md:top-[13rem] p-3 rounded-full">
           <FiGithub className="h-full w-full" />
         </div>
 
-        <div className="border-2 h-[50px] e-[50px]  md:h-[60px]  md:w-[60px] animate-bounce absolute right-[5vh] top-[16vh] md:right-[20rem] md:top-[13rem] p-3 rounded-full">
+        <div className="border-2 h-[50px] e-[50px]  md:h-[60px]  md:w-[60px] animate-bounce absolute right-[5vh] top-[19vh] md:right-[20rem] md:top-[13rem] p-3 rounded-full">
           <FaLinkedinIn className="h-full w-full" />
         </div>
 
