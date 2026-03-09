@@ -79,6 +79,10 @@ function Home() {
           </h1>
         </div>
       </div>
+      <div className="flex justify-center md:gap-[10rem] gap-[10px] bg-transparent">
+        <button className="border-2 border-[#58a6ff] md:text-2xl font-[800] text-sm  font-serif py-3 px-4 rounded-full bg-[#112240] text-[#58a6ff] backdrop-blur-[10px]">View Projects</button>
+        <button className="border-2 border-[#58a6ff] md:text-2xl font-[800] text-sm  font-serif py-3 px-4 rounded-full bg-[#112240] text-[#58a6ff] backdrop-blur-[10px]">Download Resume</button>
+      </div>
 
       <div className="mt-[5vh] md:mt-[18vh] flex justify-center w-full">
         <ArrowBigDown
