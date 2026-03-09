@@ -79,9 +79,23 @@ function Home() {
           </h1>
         </div>
       </div>
+      {/* buttons*/}
       <div className="flex justify-center md:gap-[10rem] gap-[10px] bg-transparent">
-        <button className="border-2 border-[#58a6ff] md:text-2xl font-[800] text-sm  font-serif py-3 px-4 rounded-full bg-[#112240] text-[#58a6ff] backdrop-blur-[10px]">View Projects</button>
-        <button className="border-2 border-[#58a6ff] md:text-2xl font-[800] text-sm  font-serif py-3 px-4 rounded-full bg-[#112240] text-[#58a6ff] backdrop-blur-[10px]">Download Resume</button>
+        <button className="border-2 md:text-2xl text-sm font-serif py-3 px-4 rounded-lg bg-[#112240] text-[#58a6ff] backdrop-blur-[10px] relative border-emerald-500 font-semibold group overflow-hidden cursor-pointer">
+          <span className="absolute inset-0 bg-emerald-500 scale-0 origin-top-left group-hover:scale-100 transition-transform duration-500 ease-in-out"></span>
+
+          <span className="relative z-10 group-hover:text-white transition-colors duration-300">
+            view projects
+          </span>
+        </button>
+
+        <button className="border-2 md:text-2xl text-sm font-serif py-3 px-4 rounded-lg bg-[#112240] text-[#58a6ff] backdrop-blur-[10px] relative border-emerald-500 font-semibold group overflow-hidden cursor-pointer">
+          <span className="absolute inset-0 bg-emerald-500 scale-0 origin-top-left group-hover:scale-100 transition-transform duration-500 ease-in-out"></span>
+
+          <span className="relative z-10 group-hover:text-white transition-colors duration-300">
+            Download Resume
+          </span>
+        </button>
       </div>
 
       <div className="mt-[5vh] md:mt-[18vh] flex justify-center w-full">
