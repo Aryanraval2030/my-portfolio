@@ -14,17 +14,36 @@ function Home() {
     <>
       <div className="relative min-h-[85vh] overflow-hidden flex flex-col justify-center items-center px-5 md:px-7 md:pt-[20vh] pt-[15vh] text-center">
         {/* Background */}
-        <div className="border-2 h-[45px] w-[45px] md:h-[60px] md:w-[60px] animate-bounce absolute left-[25%] top-[30%] p-3 rounded-full">
-          <FiGithub className="h-full w-full" />
-        </div>
+        <a
+          href="https://github.com/Aryanraval2030"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute left-[25%] top-[30%] z-50"
+        >
+          <div className="border-2 h-[45px] w-[45px] md:h-[60px] md:w-[60px] p-3 rounded-full flex items-center justify-center animate-bounce cursor-pointer hover:text-[#58a6ff] transition-all duration-300">
+            <FiGithub className="h-full w-full" />
+          </div>
+        </a>
 
-        <div className="border-2 h-[45px] w-[45px] md:h-[60px] md:w-[60px] animate-bounce absolute right-[23%] top-[30%] p-3 rounded-full">
+        {/* LinkedIn */}
+        <a
+          href="https://www.linkedin.com/in/aryan-raval-0205b7373/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border-2 h-[45px] w-[45px] md:h-[60px] md:w-[60px] animate-bounce absolute right-[23%] top-[30%] p-3 rounded-full flex items-center justify-center cursor-pointer hover:text-blue-600 transition duration-300 z-50"
+        >
           <FaLinkedinIn className="h-full w-full" />
-        </div>
+        </a>
 
-        <div className="border-2 h-[45px] w-[45px] md:h-[60px] md:w-[60px] animate-bounce absolute right-[43%] top-[24%]  md:right-[45%] md:top-[20%] p-3 rounded-full">
+        {/* Email */}
+        <a
+          href="aryanraval1432@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border-2 h-[45px] w-[45px] md:h-[60px] md:w-[60px] animate-bounce absolute right-[43%] top-[24%] md:right-[45%] md:top-[20%] p-3 rounded-full flex items-center justify-center cursor-pointer hover:text-[#e6edf3] transition duration-300 z-50"
+        >
           <IoIosMailUnread className="h-full w-full" />
-        </div>
+        </a>
 
         <div className="absolute  h-[100vh] inset-0 ">
           <Particles
